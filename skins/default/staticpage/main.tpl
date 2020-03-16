@@ -1,0 +1,1 @@
+<?php if(isset($staticpage)) { echo $staticpage['text']; }

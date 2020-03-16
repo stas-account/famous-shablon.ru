@@ -1,0 +1,253 @@
+* {
+	margin:0;
+	padding:0;
+}
+
+/*
+* a {
+	text-decoration:none;
+	color:black;
+}
+*/
+
+.clearfix:before, .clearfix:after {
+	content:"";
+	display:table;
+}
+.clearfix:after {
+	clear:both;
+}
+
+.logotype {
+	margin:0 auto;
+	max-width:1140px;
+	padding: 20px 0;
+}
+
+nav {
+	background-color:#e83f33;
+}
+.navigation {
+	margin:0 auto;
+	max-width:1140px;
+	text-align: center;
+}
+nav .navigation a {
+	display:inline-block;
+	padding:20px 16px;
+	color:white;
+	text-transform: uppercase;
+	font-size: 15px;
+}
+nav .navigation a[href^="/"] {
+	margin-left: -3px;
+	background-color: cornflowerblue;
+}
+
+main {
+	text-align:left;
+	max-width:1140px;
+	margin:0 auto;
+}
+
+.container-form-goods {
+	position:relative;
+}
+
+#goods-select {
+	position: absolute;
+	top: -74px;
+	left: -15px;
+}
+#goods-button {
+	position: absolute;
+	top: -33px;
+	left: -17px;
+}
+#goods-select input,
+#goods-select button,
+#goods-button input,
+#goods-button button {
+	background: url(/images/shared/nav/repeat.jpg) repeat-x;
+	padding: 4px 15px;
+	margin: 0 3px;
+	color: #fff;
+	border: 1px solid #fff;
+	border-radius: 5px;
+}
+#goods-button .add-button {
+	padding:0;
+}
+#goods-button a {
+	display:block;
+	padding: 4px 18px;
+	color: #fff;
+}
+
+#goods-select input:hover,
+#goods-select button:hover,
+#goods-button input:hover,
+#goods-button button:hover {
+	background: url(/images/shared/top_search_inp.gif) no-repeat;
+	color: #fff;
+	cursor: pointer;
+}
+
+#table-content .options-width input {
+	float:left;
+	width: 24px;
+	height: 24px;
+	vertical-align: middle;
+	margin: 0 8px 0 0;
+}
+
+#goods-select .users-button-search {
+	padding:0;
+	border: none;
+	height: 29px;
+	width: 65px;
+	background: url(/images/shared/top_search_btn.gif)
+}
+#goods-select .users-button-search:hover {
+	background: url(/images/shared/top_search_btn.gif)
+}
+#goods-select .users-input-search {
+	padding: 3px 0 5px 10px;
+	vertical-align: top;
+	border: none;
+	background: url(/images/shared/top_search_inp.gif) no-repeat;
+}
+#goods-select .users-input-search:hover {
+	cursor:text;
+}
+#id-form .td-http-user-agent {
+	max-width: 350px;
+}
+
+#login-inner .td-checkbox {
+	padding: 0 0 6px 11px;
+}
+#login-inner .td-submit {
+	padding: 0 0 6px 11px;
+}
+.admin-paginator {
+	text-align: center;
+	font-size: 21px;
+	padding: 14px 0;
+	margin: 10px 0;
+	border: solid 2px gray;
+}
+.admin-paginator a {
+	text-decoration:none;
+}
+
+/*
+table {
+	border-collapse:collapse;
+}
+table th, table td {
+	border:solid gray 1px;
+}
+.table-categories-home th, .table-categories-home td {
+	padding: 10px 40px 10px 10px;
+	border:solid gray 1px;
+}
+.table-categories-add td, .table-categories-add th, .table-edit td, .table-categories-edit, th {
+	padding: 15px 10px 15px 15px;
+}
+.table-users td, .table-users th{
+	padding: 10px 10px 10px 10px;
+}
+*/
+
+/************ FOOTER ************/
+
+footer {
+	text-align:center;
+	background-color:#333;
+}
+footer a {
+	text-decoration: none;
+}
+.container-footer {
+	padding-top: 40px;
+	padding-bottom: 20px;
+	display:inline-block;
+	max-width: 1140px
+}
+footer div div {
+	vertical-align: text-top;
+	text-align:left;
+	width:236px;
+	display:inline-block;
+}
+
+footer .container-footer div:last-child {
+	width: 245px;
+}
+.footer-col-2,
+.footer-col-3,
+.footer-col-4 {
+	width: 170px;
+	margin-left: 40px;
+}
+footer p {
+	padding: 20px 0;
+	color: #999;
+	line-height: 1.4;
+}
+footer a {
+	color: #999;
+	line-height: 1.4;
+}
+footer a:hover {
+	color:red;
+}
+footer ul li {
+	margin-top: 8px;
+	list-style-type:none;
+}
+footer h4{
+	color:white;
+}
+footer .footer-col-1 div img {
+	padding-right: 8px;
+	border-radius: 4px;
+	opacity:0.5;
+}
+footer .footer-col-1 div img:hover {
+	cursor:pointer;
+	transition: all 0.3s ease-in-out 0s;
+	opacity:1;
+}
+footer .footer-col-5 img {
+	border-radius: 4px;
+	opacity:0.5;
+}
+footer .footer-col-5 img:hover {
+	cursor:pointer;
+	transition: all 0.3s ease-in-out 0s;
+	opacity:1;
+}
+.copyright {
+	text-align:center;
+	background-color:#222;
+	color:#999;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
